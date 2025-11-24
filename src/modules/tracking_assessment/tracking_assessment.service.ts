@@ -746,6 +746,7 @@ export class TrackingAssessmentService {
               row_num = 1;`,
           [userId, tenantId],
         );
+        
         for (let j = 0; j < result.length; j++) {
           let temp_result = result[j];
           let maxMark = temp_result?.totalMaxScore;
